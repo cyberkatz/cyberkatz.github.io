@@ -366,7 +366,9 @@
     padding:0 calc(var(--global-space) * 2)
    }
    img {
-    width:100%
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
    }
    .progress-bar {
     height:8px;
